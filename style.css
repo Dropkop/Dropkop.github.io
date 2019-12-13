@@ -1,0 +1,124 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;  
+    margin-top:0px;
+    margin-bottom:0px;
+    color: #ffffff;
+    font-family: 'Electrolize';font-size: 22px;
+    
+}
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: white;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+
+/* specifieke stijlen */
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #4dad44;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:rgb(40, 80, 40);
+}
+
+nav li a.active {
+    background-color: rgb(5, 59, 0);
+}
+.Plaatjes {
+    width: 40%;
+    float:right;
+    margin-left:5px;
+    border-style: groove;
+    border-width:10px;
+    border-color: #4dad44;
+    
+    
+
+}
+
+p {
+   
+    
+}
+
+
+Body{
+    background-image: url("afbeeldingen/dirt2.png");
+    
+    
+   
+}
+
+
+.ores{
+    Width: 40%;
+    float:right;
+    margin-left:5px;
+    margin-top:10px;
+    
+
+}
+.clear {
+    clear:both;
+}
