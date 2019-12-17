@@ -92,6 +92,7 @@ nav li a.active {
     border-style: groove;
     border-width:10px;
     border-color: #4dad44;
+    margin-bottom:5px;
     
     
 
@@ -122,3 +123,5 @@ Body{
 .clear {
     clear:both;
 }
+
+
